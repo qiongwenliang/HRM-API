@@ -1,0 +1,17 @@
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\bin\Debug\net6.0\Hrm.Infrastructure.deps.json
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\bin\Debug\net6.0\Hrm.Infrastructure.runtimeconfig.json
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\bin\Debug\net6.0\Hrm.Infrastructure.dll
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\bin\Debug\net6.0\Hrm.Infrastructure.pdb
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\bin\Debug\net6.0\Hrm.ApplicationCore.dll
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\bin\Debug\net6.0\Hrm.ApplicationCore.pdb
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.AssemblyInfo.cs
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.csproj.CopyComplete
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.dll
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\refint\Hrm.Infrastructure.dll
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.pdb
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\Hrm.Infrastructure.genruntimeconfig.cache
+F:\ASP.NetProjects\HrmApi\Hrm.Infrastructure\obj\Debug\net6.0\ref\Hrm.Infrastructure.dll
