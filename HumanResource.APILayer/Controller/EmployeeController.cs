@@ -10,11 +10,11 @@ namespace HumanResource.APILayer.Controller
     public class EmployeeController : ControllerBase
     {
 
-        private readonly IEmployeeServiceAsync EmployeeServiceAsync;
+        private readonly IEmployeeServiceAsync employeeServiceAsync;
 
-        public EmployeeController(IEmployeeServiceAsync _EmployeeServiceAsync)
+        public EmployeeController(IEmployeeServiceAsync _employeeServiceAsync)
         {
-            EmployeeServiceAsync = _EmployeeServiceAsync;
+            employeeServiceAsync = _employeeServiceAsync;
         }
 
         [HttpPost]
@@ -22,7 +22,7 @@ namespace HumanResource.APILayer.Controller
         {
             if (ModelState.IsValid)
             {
-                await EmployeeServiceAsync.AddEmployeeAsync(model);
+                await employeeServiceAsync.AddEmployeeAsync(model);
                 return Ok(model);
             }
             return BadRequest(model);
@@ -31,7 +31,7 @@ namespace HumanResource.APILayer.Controller
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var result = await EmployeeServiceAsync.GetAllEmployeeAsync();
+            var result = await employeeServiceAsync.GetAllEmployeeAsync();
             return Ok(result);
         }
 
@@ -39,7 +39,7 @@ namespace HumanResource.APILayer.Controller
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            var result = await EmployeeServiceAsync.GetEmployeeByIdAsync(id);
+            var result = await employeeServiceAsync.GetEmployeeByIdAsync(id);
             if (result == null)
             {
                 return BadRequest("This Employee doesn't exist");
@@ -47,17 +47,28 @@ namespace HumanResource.APILayer.Controller
             return Ok(result);
         }
 
+        [HttpPut]
+        public async Task<IActionResult> Put(EmployeeRequestModel model)
+        {
+            if (!ModelState.IsValid) return BadRequest("Wrong Update");
+            var result = await employeeServiceAsync.UpdateEmployeeAsync(model);
+            if (result == null) { return BadRequest("Wrong Update"); }
+            return Ok(result);
+        }
+
+
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0) return BadRequest("Invalid Id");
-            var result = await EmployeeServiceAsync.GetEmployeeByIdAsync(id);
+            var result = await employeeServiceAsync.GetEmployeeByIdAsync(id);
             if (result == null)
             {
                 return BadRequest("This Employee doesn't exist");
             }
 
-            await EmployeeServiceAsync.DeleteEmployeeAsync(id);
+            await employeeServiceAsync.DeleteEmployeeAsync(id);
             return Ok("Deleted");
         }
 

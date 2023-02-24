@@ -46,6 +46,17 @@ namespace HumanResource.APILayer.Controller
             return Ok(result);
         }
 
+        [HttpPut]
+        public async Task<IActionResult> Put(EmployeeStatusRequestModel model)
+        {
+            if (!ModelState.IsValid) return BadRequest("Wrong Update");
+            var result = await employeeStatusServiceAsync.UpdateEmployeeStatusAsync(model);
+            if (result == null) { return BadRequest("Wrong Update"); }
+            return Ok(result);
+        }
+
+
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

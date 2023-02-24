@@ -70,6 +70,7 @@ namespace Hrm.Infrastructure.Service
             return null;
         }
 
+
         public Task<int> UpdateEmployeeRoleAsync(EmployeeRoleRequestModel model)
         {
             EmployeeRole employeeRole = new EmployeeRole()

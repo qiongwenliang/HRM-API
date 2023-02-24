@@ -18,6 +18,7 @@ var connectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString
 
 builder.Services.AddDbContext<HrmDbContext>(options => {
 
+    options.UseSqlServer("MSSQLConnectionString");
     options.UseSqlServer(builder.Configuration.GetConnectionString("HrmApiDb"));
 
 });
