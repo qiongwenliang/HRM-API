@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a7+RPCQmrKxLih4EPbvsB5ZE2qnrRUX9hzVrqrR4Sl22Z5cx+kXOWKundM8aGVaLIVUkS1h37yM+tnaIB9LRng==",
+  "dgSpecHash": "QCoQYd33sPbxQuIBh/yOD3dduEg/YwKzs3HCLKWBfDjG3BrvJTvvRXtb6zBFRENMH0aPmb2+tV2C4e1WL4LORg==",
   "success": true,
-  "projectFilePath": "F:\\ASP.NetProjects\\HrmApi\\HumanResource.APILayer\\HumanResource.APILayer.csproj",
+  "projectFilePath": "F:\\ASP.NetProjects\\HRM-API\\HumanResource.APILayer\\HumanResource.APILayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -41,6 +41,7 @@
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",

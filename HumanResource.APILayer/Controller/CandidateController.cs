@@ -15,6 +15,7 @@ namespace HumanResource.APILayer.Controller
         {
             candidateServiceAsync = _candidateServiceAsync;
         }
+        
         [HttpPost]
         //to execute, it must be async and await
         public async Task<IActionResult> Post(CandidateRequestModel model)
@@ -31,6 +32,31 @@ namespace HumanResource.APILayer.Controller
         {
             var result = await candidateServiceAsync.GetAllCandidatesAsync();
             return Ok(result);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            var result = await candidateServiceAsync.GetCandidateByIdAsync(id);
+            if (result == null)
+            {
+                return BadRequest("This candidate doesn't exist!");
+            }
+            return Ok(result);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (id <= 0) return BadRequest("Invalid Id");
+            var result = await candidateServiceAsync.GetCandidateByIdAsync(id);
+            if (result == null)
+            {
+                return BadRequest("This candidate doesn't exist!");
+            }
+
+            await candidateServiceAsync.DeleteCandidateAsync(id);
+            return Ok("Deleted");
         }
     }
 }

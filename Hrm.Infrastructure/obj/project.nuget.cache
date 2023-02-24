@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9l1DxfaObGjDh9JX7nbkq/RruPx3/exd2iLSyHjBHYmYX5c8fCidGG2Y/MToU+ohlPrvmiTdjlntnpdHftHBLA==",
+  "dgSpecHash": "SYla45UCcXMrKYnhED3VwsZJ1SqZgKuwm896xkcE1VarK5sUkewV0SQz37VSiWENRLhIOaIXMUfAHk8v8gDPWA==",
   "success": true,
-  "projectFilePath": "F:\\ASP.NetProjects\\HrmApi\\Hrm.Infrastructure\\Hrm.Infrastructure.csproj",
+  "projectFilePath": "F:\\ASP.NetProjects\\HRM-API\\Hrm.Infrastructure\\Hrm.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

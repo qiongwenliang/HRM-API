@@ -10,3 +10,15 @@ F:\ASP.NetProjects\HrmApi\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCo
 F:\ASP.NetProjects\HrmApi\Hrm.ApplicationCore\obj\Debug\net6.0\refint\Hrm.ApplicationCore.dll
 F:\ASP.NetProjects\HrmApi\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.pdb
 F:\ASP.NetProjects\HrmApi\Hrm.ApplicationCore\obj\Debug\net6.0\ref\Hrm.ApplicationCore.dll
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\bin\Debug\net6.0\Hrm.ApplicationCore.deps.json
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\bin\Debug\net6.0\Hrm.ApplicationCore.dll
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\bin\Debug\net6.0\Hrm.ApplicationCore.pdb
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.AssemblyInfo.cs
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.dll
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\refint\Hrm.ApplicationCore.dll
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\Hrm.ApplicationCore.pdb
+F:\ASP.NetProjects\HRM-API\Hrm.ApplicationCore\obj\Debug\net6.0\ref\Hrm.ApplicationCore.dll

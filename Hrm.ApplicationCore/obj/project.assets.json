@@ -3035,11 +3035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ASP.NetProjects\\HrmApi\\Hrm.ApplicationCore\\Hrm.ApplicationCore.csproj",
+      "projectUniqueName": "F:\\ASP.NetProjects\\HRM-API\\Hrm.ApplicationCore\\Hrm.ApplicationCore.csproj",
       "projectName": "Hrm.ApplicationCore",
-      "projectPath": "F:\\ASP.NetProjects\\HrmApi\\Hrm.ApplicationCore\\Hrm.ApplicationCore.csproj",
+      "projectPath": "F:\\ASP.NetProjects\\HRM-API\\Hrm.ApplicationCore\\Hrm.ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\",
-      "outputPath": "F:\\ASP.NetProjects\\HrmApi\\Hrm.ApplicationCore\\obj\\",
+      "outputPath": "F:\\ASP.NetProjects\\HRM-API\\Hrm.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
