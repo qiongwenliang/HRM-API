@@ -14,12 +14,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();//add openAPI
 builder.Services.AddControllers(); //it will allow you to work with webAPI
 
-var connectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
+//var connectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
 
 builder.Services.AddDbContext<HrmDbContext>(options => {
 
-    options.UseSqlServer("MSSQLConnectionString");
-    options.UseSqlServer(builder.Configuration.GetConnectionString("HrmApiDb"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("HrmApiConnectionString"));
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("HrmApiDb"));
+    
 
 });
 

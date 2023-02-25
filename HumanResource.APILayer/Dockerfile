@@ -3,6 +3,8 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
+ENV HrmApiConnectionString="Data Source=192.168.208.1,1433;Initial Catalog=HrmAPI;User ID=sa;Password=Admin@1234;TrustServerCertificate=True"
+
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
@@ -20,6 +22,4 @@ RUN dotnet publish "HumanResource.APILayer.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENV MSSQLConnectionString="Data Source=localhost,1433;Initial Catalog=HrmAPI;User ID=sa;Password=Admin@1234;TrustServerCertificate=True"
-
 ENTRYPOINT ["dotnet", "HumanResource.APILayer.dll"]

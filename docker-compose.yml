@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  humanresource.apilayer:
+    image: ${DOCKER_REGISTRY-}humanresourceapilayer
+    build:
+      context: .
+      dockerfile: HumanResource.APILayer/Dockerfile
